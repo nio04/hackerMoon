@@ -1,10 +1,7 @@
-const test = ["first", "second"];
+const input = "nishat islam";
 
-const firstTest = test[0];
-const arr = Array.from(firstTest);
-arr[1] = "e"
+const arrayOfChar = (input) => {
+  return Array.from(input);
+}
 
-test[0] = arr
-
-console.log(arr)
-console.log(test)
+console.log(arrayOfChar(input))
